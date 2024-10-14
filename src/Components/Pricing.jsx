@@ -53,10 +53,11 @@ import { CheckCircle } from "lucide-react";
 
 function Pricing() {
   return (
-    <div  id="Pricing" className="flex flex-col justify-center items-center border-neutral-800 border-b pb-8 md:pb-12 lg:pb-20">
-      <h1 className="text-3xl lg:text-6xl sm:text-5xl text-center mt-10 lg:mt-20 tracking-wide pb-8 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-800 z-10">
-        Pricing
-      </h1>
+    <div  id="Pricing" className="flex flex-col justify-center items-center border-neutral-800 border-b pb-8 md:pb-12 lg:pb-20 z-0">
+       
+    <h1 className="text-3xl lg:text-6xl sm:text-5xl text-center mt-10 lg:mt-20 tracking-wide pb-8 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-800 ">
+      Pricing
+    </h1>
 
       {/* Grid layout for pricing options */}
       <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full justify-center ">
